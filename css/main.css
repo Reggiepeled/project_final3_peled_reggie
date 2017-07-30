@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+@font-face {
+    font-family: 'Harrington';
+    src: url('../fonts/HARNGTON.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Bodoni MT';
+    src: url('../fonts/BOD_R.ttf') format('truetype');
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font: 0.9rem helvetica;
+}
+
+h1 {
+    font-family: 'Harrington';
+    font-size: 2rem;
+    color: black;
+    margin: 0 0 5% 0;
+}
+
+/* HEADER & LOGO */
+header {
+    width: 100%;
+    min-height: 150px;
+    background-color: #696353;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    padding-top: 5%;
+}
+
+.logo {
+    width: 100%;
+    position: absolute;
+}
+
+.logo img {
+    width: 100px;   /* stays the same for all screen sizes */
+}

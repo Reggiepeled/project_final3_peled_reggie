@@ -20,7 +20,8 @@ html {
 }
 
 body {
-    font: 0.9rem helvetica;
+    font-family: 'Roboto';
+    font-size: 0.9rem;
 }
 
 h1 {
@@ -56,4 +57,24 @@ header h1 {
 
 .desktop {  /* for hamburger menue */
     display: none;
+}
+
+.container {
+    padding: 5%;
+}
+
+article {
+    margin-top: 25%;
+}
+
+h2 {
+    font-family: 'Bodoni MT';
+    font-size: 1.5rem;
+    color: #0b4d2e;
+    padding-bottom: 5%;
+}
+
+p {
+    line-height: 1.5;
+    padding-bottom: 5%;
 }

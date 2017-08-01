@@ -132,3 +132,9 @@ footer li {
 footer img {
     width: 50px;
 }
+
+/* styling the menu file */
+div.foodmenu {
+    background-image: url('../img/texture5.jpg');
+    background-size: cover;
+}

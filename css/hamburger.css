@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Bodoni MT';
+    font-family: 'Harrington';
     src: url('../fonts/BOD_R.ttf') format('truetype');
 }
 
@@ -36,7 +36,7 @@
 
 .menu {
     z-index: 1000000;
-    font-family: 'Bodoni MT';
+    font-family: 'Harrington';
     font-weight: normal;
     font-size: 2rem;
     width: 100%;
@@ -60,16 +60,16 @@
 
 .menu li:hover {
     display: block;
-    color: #b58e63;
+    color: #bc6b04;
     padding: 15px 0 15px 0;
 }
 
 .menu a {
     text-decoration: none;
-    color: #696353;
+    color: #433c29;
 }
 
 .menu a:hover {
     text-decoration: none;
-    color: #b58e63;
+    color: #bc6b04;
 }

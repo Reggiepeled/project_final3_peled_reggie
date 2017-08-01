@@ -9,6 +9,11 @@
     src: url('../fonts/HARNGTON.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'Bodoni MT';
+    src: url('../fonts/BOD_R.ttf') format('truetype');
+}
+
 html {
     box-sizing: border-box;
 }

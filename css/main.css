@@ -64,11 +64,7 @@ header h1 {
 }
 
 .container {
-    padding: 5%;
-}
-
-article {
-    margin-top: 25%;
+    padding: 20% 5% 5% 5%;
 }
 
 h2 {
@@ -123,8 +119,6 @@ button:hover {
 div.foodmenu {
     background-image: url('../img/foodbackground.png');
     background-size: cover;
-    margin-top: 0;
-    padding-top: 15%;
     font-weight: bold;
     text-align: center;
 }

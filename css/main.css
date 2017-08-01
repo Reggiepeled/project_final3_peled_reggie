@@ -111,4 +111,24 @@ button:hover {
 footer {
     background-color: #696353;
     color: white;
+    padding: 5%;
+}
+
+footer section {
+    padding-bottom: 2%;
+}
+
+section.foot + section.foot {
+    border-top: 1px solid white;
+    padding-top: 5%;
+}
+
+footer li {
+    display: inline;
+    padding: 2%;
+    text-align: center;
+}
+
+footer img {
+    width: 50px;
 }

@@ -36,7 +36,6 @@ header {
     width: 100%;
     min-height: 150px;
     background-color: #696353;
-    margin-bottom: 5%;
     text-align: center;
     position: relative;
 }
@@ -68,8 +67,8 @@ article {
 }
 
 h2 {
-    font-family: 'Bodoni MT';
-    font-size: 1.5rem;
+    font-family: 'Harrington';
+    font-size: 1.7rem;
     color: #0b4d2e;
     padding-bottom: 5%;
 }
@@ -90,6 +89,13 @@ h5 {
     padding-bottom: 4%;
 }
 
+h6 {
+    font-size: 0.9rem;
+    line-height: 2;
+    color: #433c29;
+    text-transform: uppercase;
+}
+
 p {
     line-height: 1.5;
     padding-bottom: 5%;
@@ -108,6 +114,28 @@ button:hover {
     background-color: #bd9057;
 }
 
+/* styling the menu file */
+div.foodmenu {
+    background-image: url('../img/foodbackground.png');
+    background-size: cover;
+    margin-top: 0;
+    padding-top: 15%;
+    font-weight: bold;
+}
+
+.foodmenu h3 {
+    font-family: 'Bodoni MT';
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    line-height: 2;
+    color: #bc6b04;
+}
+
+.foodmenu ul {
+    list-style-type: none;
+}
+
+/* ------------------------------ */
 footer {
     background-color: #696353;
     color: white;
@@ -131,10 +159,4 @@ footer li {
 
 footer img {
     width: 50px;
-}
-
-/* styling the menu file */
-div.foodmenu {
-    background-image: url('../img/texture5.jpg');
-    background-size: cover;
 }

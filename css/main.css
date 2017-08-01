@@ -121,6 +121,7 @@ div.foodmenu {
     margin-top: 0;
     padding-top: 15%;
     font-weight: bold;
+    text-align: center;
 }
 
 .foodmenu h3 {
@@ -133,6 +134,12 @@ div.foodmenu {
 
 .foodmenu ul {
     list-style-type: none;
+}
+
+span.price {
+    font-style: italic;
+    margin-left: 10px;
+    font-size: 0.8rem;
 }
 
 /* ------------------------------ */

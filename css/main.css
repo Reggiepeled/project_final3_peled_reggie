@@ -131,7 +131,7 @@ div.foodmenu {
     color: #bc6b04;
 }
 
-.foodmenu ul {
+ul {
     list-style-type: none;
 }
 
@@ -141,7 +141,29 @@ span.price {
     font-size: 0.8rem;
 }
 
-/* ------------------------------ */
+/* ------------------------------- */
+
+/* ---- styling the contact file ---- */
+.contact section {
+    max-width: 200px;
+    margin: auto;
+    margin-bottom: 10%;
+}
+
+.contact li {
+    line-height: 3;
+}
+
+.contact img {
+    max-width: 30px;
+    vertical-align: -10px;
+}
+
+.contact .social img {
+    max-width: 40px;
+}
+
+/* ------------------------------- */
 footer {
     background-color: #696353;
     color: white;
@@ -157,12 +179,12 @@ section.foot + section.foot {
     padding-top: 5%;
 }
 
-footer li {
+.social li {
     display: inline;
     padding: 2%;
     text-align: center;
 }
 
-footer img {
-    width: 50px;
+.social img {
+    width: 40px;
 }

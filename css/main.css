@@ -77,7 +77,7 @@ h2 {
     font-family: 'Harrington';
     font-size: 1.7rem;
     color: #0b4d2e;
-    padding-bottom: 6%;
+    padding-bottom: 5%;
 }
 
 h3 {
@@ -205,20 +205,41 @@ label {
 /* ------------------------------- */
 
 /* ---- styling the events file ---- */
+.events section + section {
+    margin-top: 20%;
+}
+
 .events article {
+    background-color: #d2cbb9;
+    padding: 2% 0;
     margin-top: 7%;
+}
+
+/* different background fo the promotions */
+.promo article {
+    background-color: white;
+    border: 1px solid #696353;
 }
 
 .events figure,
 .events img {
     width: 100%;
     margin: auto;
+}
+
+.events figure {
     margin-top: 5%;
 }
 
 .events figcaption {
     text-align: center;
     padding-bottom: 3%;
+}
+
+.events h3,
+.events h6,
+.events p {
+    padding: 0 3%;
 }
 
 /* ------------------------------- */

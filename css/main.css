@@ -221,8 +221,8 @@ section + section {
     border: 1px solid #696353;
 }
 
-.events figure,
-.events img {
+figure,
+img {
     width: 100%;
     margin: auto;
 }
@@ -234,19 +234,13 @@ section + section {
 figcaption {
     text-align: center;
     padding-bottom: 3%;
+    color: #0b4d2e;
 }
 
 .events h3,
 .events h6,
 .events p {
     padding: 0 3%;
-}
-
-/* ---- styling the locations page ---- */
-.location figure,
-.location img {
-    width: 100%;
-    margin: auto;
 }
 
 /* ------------------------------- */

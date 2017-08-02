@@ -207,15 +207,15 @@ footer {
     background-color: #696353;
     color: white;
     padding: 5%;
+    text-align: center;
 }
 
 footer section {
-    padding-bottom: 2%;
+    padding-bottom: 7%;
 }
 
-section.foot + section.foot {
-    border-top: 1px solid white;
-    padding-top: 5%;
+footer p {
+    padding-bottom: 0;
 }
 
 .social li {
@@ -226,4 +226,42 @@ section.foot + section.foot {
 
 .social img {
     width: 40px;
+}
+
+/************* Media Queries ************/
+@media (min-width: 550px) {
+    header {
+        min-height: 100px;
+    }
+
+    header h1 {
+        width: 60%;
+        float: right;
+        text-align: left;
+    }
+
+    .logo {
+        width: 40%;
+        float: left;
+        margin-top: 15px;   /* stays the same from this point on */
+    }
+
+    .buttons,
+    .links {
+        display: inline;
+    }
+}
+
+@media (min-width: 700px) {
+    header h1 {
+        padding-top: 2%;
+    }
+
+    ul li {
+        width: 25%;
+    }
+
+    .typography {
+        margin-top: 5%;
+    }
 }

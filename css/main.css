@@ -202,9 +202,23 @@ label {
     font-weight: bold;
 }
 
+/* ------------------------------- */
+
 /* ---- styling the events file ---- */
 .events article {
+    margin-top: 7%;
+}
+
+.events figure,
+.events img {
+    width: 100%;
+    margin: auto;
     margin-top: 5%;
+}
+
+.events figcaption {
+    text-align: center;
+    padding-bottom: 3%;
 }
 
 /* ------------------------------- */
@@ -235,6 +249,7 @@ footer p {
 
 /************* Media Queries ************/
 @media (min-width: 550px) {
+
     header {
         min-height: 100px;
     }
@@ -258,6 +273,7 @@ footer p {
 }
 
 @media (min-width: 700px) {
+
     header h1 {
         padding-top: 2%;
     }

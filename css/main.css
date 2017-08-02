@@ -67,6 +67,12 @@ header h1 {
     padding: 20% 5% 5% 5%;
 }
 
+/* homepage backgroung */
+.home {
+    background-image: url('../img/home-background.png');
+    background-size: cover;
+}
+
 h2 {
     font-family: 'Harrington';
     font-size: 1.7rem;

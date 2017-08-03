@@ -67,6 +67,11 @@ header h1 {
     padding: 20% 5% 5% 5%;
 }
 
+main {
+    max-width: 600px;
+    margin: auto;
+}
+
 /* homepage backgroung */
 .home {
     background-image: url('../img/home-background.png');
@@ -125,18 +130,13 @@ input[type="submit"] {
     background-color: #0b4d2e;
     color: white;
     padding: 15px;
-    margin: 5% 0;
+    margin: 0 0 5% 0;
 }
 
 button:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
     background-color: #bd9057;
-}
-
-main {
-    max-width: 600px;
-    margin: auto;
 }
 
 /* styling the menu file */
@@ -307,11 +307,6 @@ footer p {
         margin-top: 15px;   /* stays the same from this point on */
     }
 
-    .buttons,
-    .links {
-        display: inline;
-    }
-
     .contact section {
         width: 50%;
         float: left;
@@ -338,5 +333,12 @@ footer p {
     footer section:last-child {
         width: 40%;
         float: right;
+    }
+}
+
+@media (min-width: 700px) {
+
+    .container {
+        padding-top: 12%;
     }
 }

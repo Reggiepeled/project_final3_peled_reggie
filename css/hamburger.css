@@ -36,7 +36,8 @@
     margin: 0;
 }
 
-.menu {
+.menu,
+.desktop {
     z-index: 1000000;
     font-family: 'Harrington';
     font-weight: normal;
@@ -48,7 +49,8 @@
     margin-top: 13%;
 }
 
-.menu ul {
+.menu ul,
+.desktop ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
@@ -60,18 +62,33 @@
     padding: 15px 0 15px 0;
 }
 
-.menu li:hover {
-    display: block;
-    color: #bc6b04;
-    padding: 15px 0 15px 0;
+nav.desktop {
+    text-align: right;
+    z-index: 0;
+    margin-top: 0;
+    padding-bottom: 10px;
+    padding-right: 10px;
 }
 
-.menu a {
+.desktop li {
+    display: inline;
+    padding: 0 10px;
+    font-size: 1.3rem;
+    padding: 15px 5px 15px 5px;
+}
+
+.menu li:hover,
+.desktop li:hover {
+    color: #bc6b04;
+}
+
+.menu a,
+.desktop a {
     text-decoration: none;
     color: #433c29;
 }
 
-.menu a:hover {
-    text-decoration: none;
+.menu a:hover,
+.desktop a:hover {
     color: #bc6b04;
 }

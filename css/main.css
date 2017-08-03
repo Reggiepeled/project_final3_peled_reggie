@@ -53,6 +53,7 @@ header h1 {
 .logo {
     width: 100%;
     position: absolute;
+    z-index: 100;
 }
 
 .logo img {
@@ -310,7 +311,7 @@ footer p {
     }
 
     .logo {
-        width: 30%;
+        width: 20%;
         float: left;
         margin-top: 15px;   /* stays the same from this point on */
     }
@@ -348,6 +349,15 @@ footer p {
 
     .container {
         padding-top: 12%;
+    }
+
+    .desktop {  /* for hamburger menue */
+        display: block;
+    }
+
+    .hamburger,
+    .cross {
+        display: none;
     }
 
     footer {
@@ -390,6 +400,15 @@ footer p {
 
     .container {
         padding-top: 8%;
+    }
+
+    header h1 {
+        clear: both;
+        margin: auto;
+    }
+
+    nav.desktop {
+        text-align: center;
     }
 
     .events main {

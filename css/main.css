@@ -385,3 +385,26 @@ footer p {
         margin-top: 0;
     }
 }
+
+@media (min-width: 1000px) {
+
+    .container {
+        padding-top: 8%;
+    }
+
+    .events main {
+        max-width: 950px;
+    }
+
+    .events section {
+        clear: both;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+
+    .events section article {
+        width: 30%;
+        float: left;
+        margin: 0 1.5% 5% 1.5%;
+    }
+}

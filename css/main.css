@@ -134,6 +134,11 @@ input[type="submit"]:hover {
     background-color: #bd9057;
 }
 
+main {
+    max-width: 600px;
+    margin: auto;
+}
+
 /* styling the menu file */
 div.foodmenu {
     background-image: url('../img/foodbackground.png');

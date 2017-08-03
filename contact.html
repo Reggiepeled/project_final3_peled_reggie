@@ -48,80 +48,80 @@
     </nav>
 
     <div class="container contact">
-        <section>
-            <h2>Contact Us</h2>
-            <ul>
-                <li>
-                    <img src="img/phone.png" alt="Phone" title="Phone" />
-                    1 - 800 - 770 - 6600
-                </li>
-                <li>
-                    <img src="img/fax.png" alt="Fax" title="Fax" />
-                    1 - 800 - 770 - 5555
-                </li>
-                <li>
-                    <img src="img/email.png" alt="Email" title="Email" />
-                    <a href="mailto:revital.peled@gmail.com" title="gmail">info@prancing.pony.com</a>
-                </li>
-            </ul>
-        </section>
-        <section class="social">
-            <h2>Follow Us:</h2>
-            <ul>
-                <li><a href="https://www.facebook.com/revital.peled.10" target="_blank" title="Facebook">
-                    <img src="img/facebook.png" alt="Facebook" title="Facebook" /></a></li>
-                <li><a href="https://twitter.com/ReggiePeled" target="_blank" title="Twitter">
-                    <img src="img/twitter.png" alt="Twitter" title="Twitter" /></a></li>
-                <li><a href="https://www.youtube.com/watch?v=r1j9LVVUiFg" target="_blank" title="YouTube">
-                    <img src="img/youtube.png" alt="YouTube" title="YouTube" /></a></li>
-            </ul>
-        </section>
-        <section>
-            <h2>Make a Reservation</h2>
-            <form name="reservation" method="post" action="form.php" id="reservation" onsubmit="return validateForm(this)">
-                <!-- name -->
-                <label for="name">
-                    Full Name:
-                    <input type="text" name="name" id="name" required placeholder="Type Your Full Name"/>
-                </label>
+        <main>
+            <section>
+                <h2>Contact Us</h2>
+                <ul>
+                    <li>
+                        <img src="img/phone.png" alt="Phone" title="Phone" />
+                        1 - 800 - 770 - 6600
+                    </li>
+                    <li>
+                        <img src="img/fax.png" alt="Fax" title="Fax" />
+                        1 - 800 - 770 - 5555
+                    </li>
+                    <li>
+                        <img src="img/email.png" alt="Email" title="Email" />
+                        <a href="mailto:revital.peled@gmail.com" title="gmail">info@prancing.pony.com</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="social">
+                <h2>Follow Us:</h2>
+                <ul>
+                    <li><a href="https://www.facebook.com/revital.peled.10" target="_blank" title="Facebook">
+                        <img src="img/facebook.png" alt="Facebook" title="Facebook" /></a></li>
+                    <li><a href="https://twitter.com/ReggiePeled" target="_blank" title="Twitter">
+                        <img src="img/twitter.png" alt="Twitter" title="Twitter" /></a></li>
+                    <li><a href="https://www.youtube.com/watch?v=r1j9LVVUiFg" target="_blank" title="YouTube">
+                        <img src="img/youtube.png" alt="YouTube" title="YouTube" /></a></li>
+                </ul>
+            </section>
+            <section>
+                <h2>Make a Reservation</h2>
+                <form name="reservation" method="post" action="form.php" id="reservation" onsubmit="return validateForm(this)">
+                    <!-- name -->
+                    <label for="name">
+                        Full Name:
+                        <input type="text" name="name" id="name" required placeholder="Type Your Full Name"/>
+                    </label>
 
-                <!-- email -->
-                <label for="email">
-                    Email Address:
-                    <input type="email" name="email" id="email" required placeholder="Type Your Email Address"/>
-                </label>
+                    <!-- email -->
+                    <label for="email">
+                        Email Address:
+                        <input type="email" name="email" id="email" required placeholder="Type Your Email Address"/>
+                    </label>
 
-                <!-- phone number -->
-                <label for="phone">
-                    Phone Number:
-                    <input type="tel" name="phone" id="phone" placeholder="Digits Only"/>
-                </label>
+                    <!-- phone number -->
+                    <label for="phone">
+                        Phone Number:
+                        <input type="tel" name="phone" id="phone" placeholder="Digits Only"/>
+                    </label>
 
-                <!-- arrival day -->
-                <label for="day">
-                    Arrival Day:
-                    <input type="date" name="day" id="day" />
-                </label>
+                    <!-- arrival day -->
+                    <label for="day">
+                        Arrival Day:
+                        <input type="date" name="day" id="day" />
+                    </label>
 
-                <!-- arrival time -->
-                <label for="hour">
-                    Arrival Time:
-                    <input type="time" name="hour" id="hour" />
-                </label>
+                    <!-- arrival time -->
+                    <label for="hour">
+                        Arrival Time:
+                        <input type="time" name="hour" id="hour" />
+                    </label>
 
-                <!-- comments -->
-                <label>Comments:</label>
-                <textarea name="comments" id="comments" rows="10">
-                </textarea>
+                    <!-- comments -->
+                    <label>Comments:</label>
+                    <textarea name="comments" id="comments" rows="10">
+                    </textarea>
 
-                <!-- submit and reset -->
-                <input type="submit" name="submit" id="submit" value="Submit"/>
-                <input type="reset" name="reset" id="reset" value="Reset"/>
-            </form>
-
-
-        </section>
-        </div>  <!-- end container -->
+                    <!-- submit and reset -->
+                    <input type="submit" name="submit" id="submit" value="Submit"/>
+                    <input type="reset" name="reset" id="reset" value="Reset"/>
+                </form>
+            </section>
+        </main>
+    </div>  <!-- end container -->
 
     <footer>
         <section class="foot">

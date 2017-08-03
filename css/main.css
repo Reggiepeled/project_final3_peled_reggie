@@ -219,7 +219,15 @@ label {
 
 /* ------------------------------- */
 
-/* ---- styling the events file ---- */
+/* ---- styling the location page  ---- */
+.location figure,
+.location img {
+    max-width: 700px;
+}
+
+/* ------------------------------- */
+
+/* ---- styling the events page ---- */
 section + section {
     margin-top: 20%;
 }

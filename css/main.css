@@ -77,7 +77,7 @@ h2 {
     font-family: 'Harrington';
     font-size: 1.7rem;
     color: #0b4d2e;
-    padding-bottom: 5%;
+    padding-bottom: 1rem;
 }
 
 h3 {
@@ -212,6 +212,10 @@ section + section {
 .events article {
     background-color: #d2cbb9;
     padding: 2% 0;
+    max-width: 400px;
+}
+
+.events article + article {
     margin-top: 7%;
 }
 
@@ -224,6 +228,7 @@ section + section {
 figure,
 img {
     width: 100%;
+    max-width: 400px;
     margin: auto;
 }
 
@@ -251,6 +256,12 @@ footer {
     color: white;
     padding: 5%;
     text-align: center;
+    min-height: 220px;
+    max-height: 330px;
+}
+
+footer section + section {
+    margin-top: 7%;
 }
 
 footer p {
@@ -270,6 +281,10 @@ footer p {
 /************* Media Queries ************/
 @media (min-width: 550px) {
 
+    .container {
+        padding-top: 15%;
+    }
+
     header {
         min-height: 100px;
     }
@@ -278,10 +293,11 @@ footer p {
         width: 60%;
         float: right;
         text-align: left;
+        margin-right: 10%;
     }
 
     .logo {
-        width: 40%;
+        width: 30%;
         float: left;
         margin-top: 15px;   /* stays the same from this point on */
     }
@@ -290,19 +306,32 @@ footer p {
     .links {
         display: inline;
     }
-}
 
-@media (min-width: 700px) {
-
-    header h1 {
-        padding-top: 2%;
+    .contact section {
+        width: 50%;
+        float: left;
     }
 
-    ul li {
-        width: 25%;
+    .contact .social {
+        margin-top: 0;
+        min-height: 180px;
     }
 
-    .typography {
-        margin-top: 5%;
+    section + section {
+        margin-top: 10%;
+    }
+
+    footer {
+        clear: both;
+    }
+
+    footer section {
+        width: 60%;
+        float: left;
+    }
+
+    footer section:last-child {
+        width: 40%;
+        float: right;
     }
 }

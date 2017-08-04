@@ -28,3 +28,7 @@ and in the syllabus."
 
 ## Comments
 I used a form mechanism I learned on a previous class - form.php, don't remember the url for the source, I hope it is OK.
+
+I am using the hamburger menu plugin, and I want the whole line to be clickable in the menu, not just the word, so I am wrapping the <li> in <a>, BUT, the validator doesn't like it and throw this error:
+"Element a not allowed as child of element ul in this context"
+I am ignoring this error regarding the plugin, hoping it is ok with you.

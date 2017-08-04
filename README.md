@@ -19,7 +19,7 @@
 ## Resources
 * [Hamburger Menu Plugin](https://codepen.io/mblode/pen/evjfn) - for responsive navigation menu. Included on all pages.
 * [Pickadate Plugin](http://amsul.ca/pickadate.js/) - for a better presentation of date and time selection on the reservation form under Contact page.
-* [bxslider Plugin](https://api.jquery.com/hover) - for an image slider. Used on the homepage and the menu page.
+* [bxslider Plugin](http://bxslider.com/) - for an image slider. Used on the homepage and the menu page.
 * [Wiki](http://lotr.wikia.com/wiki/The_Prancing_Pony) - for the history of the Prancing Pony.
 
 ## Deductions

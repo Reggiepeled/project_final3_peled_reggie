@@ -159,8 +159,16 @@ span.price {
 /* ------------------------------- */
 
 /* ---- styling the contact file ---- */
-.contact {
+div.contact {
+    background-image: url('../img/contactbackground.png');
+    background-size: cover;
     padding-left: 7%;
+}
+
+div.contact::after {
+    content: '';
+    clear: both;
+    display: block;
 }
 
 .contact section {
@@ -220,6 +228,11 @@ label {
 /* ------------------------------- */
 
 /* ---- styling the location page  ---- */
+div.location {
+    background-image: url('../img/locatiobackground.png');
+    background-size: cover;
+}
+
 .location figure,
 .location img {
     max-width: 700px;

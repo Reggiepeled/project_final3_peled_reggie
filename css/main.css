@@ -228,6 +228,11 @@ label {
 /* ------------------------------- */
 
 /* ---- styling the events page ---- */
+div.events {
+    background-image: url('../img/events.png');
+    background-size: cover;
+}
+
 section + section {
     margin-top: 20%;
 }
@@ -269,6 +274,12 @@ figcaption {
 .events h6,
 .events p {
     padding: 0 3%;
+}
+
+.events button {
+    clear: both;
+    display: block;
+    margin: 20% 0 10% 0;
 }
 
 /* ------------------------------- */
@@ -336,6 +347,10 @@ footer p {
 
     section + section {
         margin-top: 10%;
+    }
+
+    .events button {
+        margin: 10% 0 0 0;
     }
 
     footer {

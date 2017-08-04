@@ -4,8 +4,17 @@ $(document).ready(function () {
     //for the time picker plugin
     $('#hour').pickatime();
 
-    //go to contact page when clicking the reservation button
+    //go to contact page when clicking the reservation button (custom jQuery)
     $('.reserve').click(function () {
         window.location.href = 'contact.html';
+    });
+
+    //rotate the logo on hover (custom javascript)
+    var logo = document.getElementById('rotate');
+    logo.addEventListener('mouseover', function () {
+        logo.style.transform = 'rotate(180deg)';
+    });
+    logo.addEventListener('mouseleave', function () {
+        logo.style.transform = 'rotate(360deg)';
     });
 });

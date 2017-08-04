@@ -1,4 +1,11 @@
 $(document).ready(function () {
+    //for slider plugin
+    $('.bxslider').bxSlider({controls: false,
+        infiniteLoop: true,
+        captions: true,
+        auto: true,
+        autoHover: true});
+
     //for the date picker plugin
     $('#date').pickadate();
     //for the time picker plugin

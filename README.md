@@ -2,19 +2,19 @@
 * [Github Repository](https://github.com/Reggiepeled/project_final3_peled_reggie)
 * [Website](http://www.designedbyreggie.com/project_final3_peled_reggie)
 
-* #### HTML5 Outliner
-* [index](https://gsnedders.html5.org/outliner/process.py?url=http%3A%2F%2Fwww.designedbyreggie.com%2Fproject_final3_peled_reggie%2Findex.html)
-* [menu](https://gsnedders.html5.org/outliner/process.py?url=http%3A%2F%2Fwww.designedbyreggie.com%2Fproject_final3_peled_reggie%2Fmenu.html)
-* [contact](https://gsnedders.html5.org/outliner/process.py?url=http%3A%2F%2Fwww.designedbyreggie.com%2Fproject_final3_peled_reggie%2Fcontact.html)
-* [locations](https://gsnedders.html5.org/outliner/process.py?url=http%3A%2F%2Fwww.designedbyreggie.com%2Fproject_final3_peled_reggie%2Flocations.html)
-* [events](https://gsnedders.html5.org/outliner/process.py?url=http%3A%2F%2Fwww.designedbyreggie.com%2Fproject_final3_peled_reggie%2Fevents.html)
+* ###### HTML5 Outliner
+  * [index](https://gsnedders.html5.org/outliner/process.py?url=http%3A%2F%2Fwww.designedbyreggie.com%2Fproject_final3_peled_reggie%2Findex.html)
+  * [menu](https://gsnedders.html5.org/outliner/process.py?url=http%3A%2F%2Fwww.designedbyreggie.com%2Fproject_final3_peled_reggie%2Fmenu.html)
+  * [contact](https://gsnedders.html5.org/outliner/process.py?url=http%3A%2F%2Fwww.designedbyreggie.com%2Fproject_final3_peled_reggie%2Fcontact.html)
+  * [locations](https://gsnedders.html5.org/outliner/process.py?url=http%3A%2F%2Fwww.designedbyreggie.com%2Fproject_final3_peled_reggie%2Flocations.html)
+  * [events](https://gsnedders.html5.org/outliner/process.py?url=http%3A%2F%2Fwww.designedbyreggie.com%2Fproject_final3_peled_reggie%2Fevents.html)
 
-* #### Validator
-* [index](https://validator.w3.org/nu/?doc=http%3A%2F%2Fwww.designedbyreggie.com%2Fproject_final3_peled_reggie%2Findex.html)
-* [menu](https://validator.w3.org/nu/?acceptlanguage=&doc=http%3A%2F%2Fwww.designedbyreggie.com%2Fproject_final3_peled_reggie%2Fmenu.html)
-* [contact](https://validator.w3.org/nu/?acceptlanguage=&doc=http%3A%2F%2Fwww.designedbyreggie.com%2Fproject_final3_peled_reggie%2Fcontact.html)
-* [locations](https://validator.w3.org/nu/?acceptlanguage=&doc=http%3A%2F%2Fwww.designedbyreggie.com%2Fproject_final3_peled_reggie%2Flocations.html)
-* [events](https://validator.w3.org/nu/?acceptlanguage=&doc=http%3A%2F%2Fwww.designedbyreggie.com%2Fproject_final3_peled_reggie%2Fevents.html)
+* ###### Validator
+  * [index](https://validator.w3.org/nu/?doc=http%3A%2F%2Fwww.designedbyreggie.com%2Fproject_final3_peled_reggie%2Findex.html)
+  * [menu](https://validator.w3.org/nu/?acceptlanguage=&doc=http%3A%2F%2Fwww.designedbyreggie.com%2Fproject_final3_peled_reggie%2Fmenu.html)
+  * [contact](https://validator.w3.org/nu/?acceptlanguage=&doc=http%3A%2F%2Fwww.designedbyreggie.com%2Fproject_final3_peled_reggie%2Fcontact.html)
+  * [locations](https://validator.w3.org/nu/?acceptlanguage=&doc=http%3A%2F%2Fwww.designedbyreggie.com%2Fproject_final3_peled_reggie%2Flocations.html)
+  * [events](https://validator.w3.org/nu/?acceptlanguage=&doc=http%3A%2F%2Fwww.designedbyreggie.com%2Fproject_final3_peled_reggie%2Fevents.html)
 
 ## Resources
 * [Hamburger Menu Plugin](https://codepen.io/mblode/pen/evjfn) - for responsive navigation menu. Included on all pages.

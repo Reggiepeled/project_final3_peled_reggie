@@ -16,8 +16,10 @@ $form->processForm(
 	'reggiepeled@designedbyreggie.com' // This what the form FROM: address wil be, if the form submissions doesn't contain an email field
 
 );
-
-
 ?>
+
+<script src="js/picker.js"></script>
+<script src="js/picker.date.js"></script>
+<script src="js/picker.time.js"></script>
 
 <!-- HTML bottom code goes here -->
